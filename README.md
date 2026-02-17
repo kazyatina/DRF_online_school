@@ -17,6 +17,8 @@ ___
 - pip install python-dotenv - установка библиотеки для работы с защитой секретных данных
 - pip freeze > requirements.txt - обновление файла с зависимостями
 - pip install Pillow - установка библиотеки для работы с изображениями
+- pip install django_filter - установка фильтрации, добавить в settings/INSTALLED_APPS = ['django_filters',]
++ 
 - python manage.py runserver - запускает сервер
 - python manage.py makemigrations app_name - создает миграцию, которая зафиксирует эти изменения.
 - python manage.py migrate - применяет миграцию к базе данных

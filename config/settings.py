@@ -46,6 +46,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'rest_framework',
+    'django_filters',
+
     'materials',
     'users',
 ]
@@ -152,3 +154,9 @@ if CACHE_ENABLED:
             'LOCATION': os.getenv("LOCATION"),
         }
     }
+
+REST_FRAMEWORK = {
+    'DEFAULT_FILTER_BACKENDS': (
+        'django_filters.rest_framework.DjangoFilterBackend',
+    ),
+}
