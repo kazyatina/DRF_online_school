@@ -43,12 +43,14 @@ class Lesson(models.Model):
         verbose_name="Название урока",
         help_text="Введите название урока",
     )
-    description = models.TextField(
+    description = (
+        models.TextField(
             blank=True,
             null=True,
             verbose_name="Описание урока",
             help_text="Введите описание урока",
         ),
+    )
 
     preview = models.ImageField(
         upload_to="materials/previews/",
