@@ -1,3 +1,4 @@
+from django.urls import path
 from rest_framework.routers import DefaultRouter
 
 from users.apps import UsersConfig
@@ -7,6 +8,7 @@ app_name = UsersConfig.name
 
 router = DefaultRouter()
 router.register(r"users", UserViewSet)
-router.register(r"payments", PaymentListAPIView)
 
-urlpatterns = [] + router.urls
+urlpatterns = [
+    path('payments/', PaymentListAPIView.as_view(), name='payment-list'),
+              ] + router.urls
