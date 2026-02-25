@@ -14,9 +14,13 @@ class LessonSerializer(ModelSerializer):
 class LessonBriefSerializer(ModelSerializer):
     """Сериализатор модели уроков с ограниченными полями"""
 
+class LessonBriefSerializer(ModelSerializer):
+    """Сериализатор модели уроков с ограниченными полями"""
+
     class Meta:
         model = Lesson
         fields = ("title", "description")
+
 
 class CourseSerializer(ModelSerializer):
     """Сериализатор модели курсов"""

@@ -1,4 +1,7 @@
 from django.db import models
+from django.db.models import CASCADE
+
+from users.models import User
 
 
 class Course(models.Model):
@@ -19,6 +22,9 @@ class Course(models.Model):
         null=True,
         verbose_name="Превью",
         help_text="Превью",
+    )
+    owner = models.ForeignKey(
+        User, on_delete=CASCADE, verbose_name="Владелец", null=True, blank=True
     )
 
     def __str__(self):
@@ -43,12 +49,14 @@ class Lesson(models.Model):
         verbose_name="Название урока",
         help_text="Введите название урока",
     )
-    description = models.TextField(
+    description = (
+        models.TextField(
             blank=True,
             null=True,
             verbose_name="Описание урока",
             help_text="Введите описание урока",
         ),
+    )
 
     preview = models.ImageField(
         upload_to="materials/previews/",
@@ -58,6 +66,9 @@ class Lesson(models.Model):
         help_text="Превью",
     )
     video_url = models.URLField(verbose_name="Ссылка на видео урока")
+    owner = models.ForeignKey(
+        User, on_delete=CASCADE, verbose_name="Владелец", null=True, blank=True
+    )
 
     def __str__(self):
         return f"{self.course.title} - {self.title}"
