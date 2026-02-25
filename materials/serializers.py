@@ -11,6 +11,8 @@ class LessonSerializer(ModelSerializer):
         model = Lesson
         fields = "__all__"
 
+class LessonBriefSerializer(ModelSerializer):
+    """Сериализатор модели уроков с ограниченными полями"""
 
 class LessonBriefSerializer(ModelSerializer):
     """Сериализатор модели уроков с ограниченными полями"""

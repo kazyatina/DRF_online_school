@@ -5,6 +5,8 @@ from users.models import Payment, User
 
 
 class UserSerializer(ModelSerializer):
+    """Сериализатор модели пользователя"""
+
     password = serializers.CharField(write_only=True, required=False, allow_blank=True)
 
     class Meta:
