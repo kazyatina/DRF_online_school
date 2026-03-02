@@ -2,7 +2,6 @@ from django.contrib.auth.models import AbstractUser
 from django.db import models
 
 from config import settings
-from materials.models import Course, Lesson
 
 
 class User(AbstractUser):
