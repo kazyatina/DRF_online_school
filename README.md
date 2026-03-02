@@ -32,6 +32,9 @@ ___
 - python -Xutf8 manage.py dumpdata [приложение].[модель] --output [файл.json] --indent 4 - Выгрузка данных из БД в файл на Windows
 - python manage.py loaddata файл.json --format json - Загрузка данных из файла в БД с указанием формата файла на Windows
 - python manage.py команда - Вызов кастомной команды
+- pip install coverage - установить Для подсчета покрытия тестами
+- coverage run --source='.' manage.py tests - После установки важно запустить подсчет покрытия и вывести отчет
+- coverage report - и вывести отчет
 ___
 ## Создание и настройка приложения `material`:
 
