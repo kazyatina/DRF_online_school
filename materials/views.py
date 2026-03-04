@@ -4,11 +4,15 @@ from rest_framework.generics import (
     ListAPIView,
     RetrieveAPIView,
     UpdateAPIView,
+    get_object_or_404,
 )
 from rest_framework.permissions import IsAuthenticated
+from rest_framework.response import Response
+from rest_framework.views import APIView
 from rest_framework.viewsets import ModelViewSet
 
-from materials.models import Course, Lesson
+from materials.models import Course, CourseSubscription, Lesson
+from materials.paginators import CustomPagination
 from materials.serializers import CourseSerializer, LessonSerializer
 from users.permissions import IsModerators, IsOwner
 
@@ -16,6 +20,7 @@ from users.permissions import IsModerators, IsOwner
 class CourseViewSet(ModelViewSet):
     queryset = Course.objects.all()
     serializer_class = CourseSerializer
+    pagination_class = CustomPagination
 
     def perform_create(self, serializer):
         course = serializer.save()
@@ -61,6 +66,7 @@ class LessonListApiView(ListAPIView):
         IsAuthenticated,
         IsModerators | IsOwner,
     )
+    pagination_class = CustomPagination
 
     def get_queryset(self):
         user = self.request.user
@@ -95,3 +101,23 @@ class LessonDestroyApiView(DestroyAPIView):
         IsAuthenticated,
         IsOwner | ~IsModerators,
     )
+
+
+class CourseSubscriptionView(APIView):
+    permission_classes = [IsAuthenticated]
+
+    def post(self, request, *args, **kwargs):
+        user = self.request.user
+        course_id = request.data.get("course_id")
+
+        course_item = get_object_or_404(Course, id=course_id)
+
+        subs_item = CourseSubscription.objects.filter(user=user, course=course_id)
+
+        if subs_item.exists():
+            subs_item.delete()
+            return Response({"detail": "Подписка удалена"}, status=204)
+
+        else:
+            CourseSubscription.objects.create(user=user, course=course_item)
+            return Response({"detail": "Подписка создана"}, status=201)

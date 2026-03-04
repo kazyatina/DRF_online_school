@@ -1,0 +1,746 @@
+{
+  "note": "This file is an internal implementation detail to speed up HTML report generation. Its format can change at any time. You might be looking for the JSON report: https://coverage.rtfd.io/cmd.html#cmd-json",
+  "format": 5,
+  "version": "7.13.4",
+  "globals": "b31626cabcdf6454a49338d557030e18",
+  "files": {
+    "z_1ea838694151cac8___init___py": {
+      "hash": "22a55c70b987e14d3f30c99eef952833",
+      "index": {
+        "url": "z_1ea838694151cac8___init___py.html",
+        "file": "config\\__init__.py",
+        "description": "",
+        "nums": {
+          "precision": 0,
+          "n_files": 1,
+          "n_statements": 0,
+          "n_excluded": 0,
+          "n_missing": 0,
+          "n_branches": 0,
+          "n_partial_branches": 0,
+          "n_missing_branches": 0
+        }
+      }
+    },
+    "z_1ea838694151cac8_asgi_py": {
+      "hash": "42af93e6f406130e7aeebd1d57aceaf4",
+      "index": {
+        "url": "z_1ea838694151cac8_asgi_py.html",
+        "file": "config\\asgi.py",
+        "description": "",
+        "nums": {
+          "precision": 0,
+          "n_files": 1,
+          "n_statements": 4,
+          "n_excluded": 0,
+          "n_missing": 4,
+          "n_branches": 0,
+          "n_partial_branches": 0,
+          "n_missing_branches": 0
+        }
+      }
+    },
+    "z_1ea838694151cac8_settings_py": {
+      "hash": "d79e38a60147357f800b5a2e8fd7d642",
+      "index": {
+        "url": "z_1ea838694151cac8_settings_py.html",
+        "file": "config\\settings.py",
+        "description": "",
+        "nums": {
+          "precision": 0,
+          "n_files": 1,
+          "n_statements": 32,
+          "n_excluded": 0,
+          "n_missing": 0,
+          "n_branches": 0,
+          "n_partial_branches": 0,
+          "n_missing_branches": 0
+        }
+      }
+    },
+    "z_1ea838694151cac8_urls_py": {
+      "hash": "fafe8bbaf68f3eccf5103bbad0ccfa66",
+      "index": {
+        "url": "z_1ea838694151cac8_urls_py.html",
+        "file": "config\\urls.py",
+        "description": "",
+        "nums": {
+          "precision": 0,
+          "n_files": 1,
+          "n_statements": 3,
+          "n_excluded": 0,
+          "n_missing": 0,
+          "n_branches": 0,
+          "n_partial_branches": 0,
+          "n_missing_branches": 0
+        }
+      }
+    },
+    "z_1ea838694151cac8_wsgi_py": {
+      "hash": "b119f111843397f3ba9ae47342c21401",
+      "index": {
+        "url": "z_1ea838694151cac8_wsgi_py.html",
+        "file": "config\\wsgi.py",
+        "description": "",
+        "nums": {
+          "precision": 0,
+          "n_files": 1,
+          "n_statements": 4,
+          "n_excluded": 0,
+          "n_missing": 4,
+          "n_branches": 0,
+          "n_partial_branches": 0,
+          "n_missing_branches": 0
+        }
+      }
+    },
+    "manage_py": {
+      "hash": "d30410df9de58eec5bd63822287d5644",
+      "index": {
+        "url": "manage_py.html",
+        "file": "manage.py",
+        "description": "",
+        "nums": {
+          "precision": 0,
+          "n_files": 1,
+          "n_statements": 11,
+          "n_excluded": 0,
+          "n_missing": 2,
+          "n_branches": 0,
+          "n_partial_branches": 0,
+          "n_missing_branches": 0
+        }
+      }
+    },
+    "z_f978324627c06562___init___py": {
+      "hash": "22a55c70b987e14d3f30c99eef952833",
+      "index": {
+        "url": "z_f978324627c06562___init___py.html",
+        "file": "materials\\__init__.py",
+        "description": "",
+        "nums": {
+          "precision": 0,
+          "n_files": 1,
+          "n_statements": 0,
+          "n_excluded": 0,
+          "n_missing": 0,
+          "n_branches": 0,
+          "n_partial_branches": 0,
+          "n_missing_branches": 0
+        }
+      }
+    },
+    "z_f978324627c06562_admin_py": {
+      "hash": "22a55c70b987e14d3f30c99eef952833",
+      "index": {
+        "url": "z_f978324627c06562_admin_py.html",
+        "file": "materials\\admin.py",
+        "description": "",
+        "nums": {
+          "precision": 0,
+          "n_files": 1,
+          "n_statements": 0,
+          "n_excluded": 0,
+          "n_missing": 0,
+          "n_branches": 0,
+          "n_partial_branches": 0,
+          "n_missing_branches": 0
+        }
+      }
+    },
+    "z_f978324627c06562_apps_py": {
+      "hash": "60d85123663b5029e609a7d99284a131",
+      "index": {
+        "url": "z_f978324627c06562_apps_py.html",
+        "file": "materials\\apps.py",
+        "description": "",
+        "nums": {
+          "precision": 0,
+          "n_files": 1,
+          "n_statements": 3,
+          "n_excluded": 0,
+          "n_missing": 0,
+          "n_branches": 0,
+          "n_partial_branches": 0,
+          "n_missing_branches": 0
+        }
+      }
+    },
+    "z_2484c951eaf88dd9_0001_initial_py": {
+      "hash": "83f29801bc92a58f419c55f87618d3fe",
+      "index": {
+        "url": "z_2484c951eaf88dd9_0001_initial_py.html",
+        "file": "materials\\migrations\\0001_initial.py",
+        "description": "",
+        "nums": {
+          "precision": 0,
+          "n_files": 1,
+          "n_statements": 6,
+          "n_excluded": 0,
+          "n_missing": 0,
+          "n_branches": 0,
+          "n_partial_branches": 0,
+          "n_missing_branches": 0
+        }
+      }
+    },
+    "z_2484c951eaf88dd9_0002_lesson_preview_alter_course_description_and_more_py": {
+      "hash": "04904e4e54ebefc75a267174d4c85d0b",
+      "index": {
+        "url": "z_2484c951eaf88dd9_0002_lesson_preview_alter_course_description_and_more_py.html",
+        "file": "materials\\migrations\\0002_lesson_preview_alter_course_description_and_more.py",
+        "description": "",
+        "nums": {
+          "precision": 0,
+          "n_files": 1,
+          "n_statements": 4,
+          "n_excluded": 0,
+          "n_missing": 0,
+          "n_branches": 0,
+          "n_partial_branches": 0,
+          "n_missing_branches": 0
+        }
+      }
+    },
+    "z_2484c951eaf88dd9_0003_course_owner_lesson_owner_py": {
+      "hash": "fad7fa16e9b2bb013ef5967dd0e439ba",
+      "index": {
+        "url": "z_2484c951eaf88dd9_0003_course_owner_lesson_owner_py.html",
+        "file": "materials\\migrations\\0003_course_owner_lesson_owner.py",
+        "description": "",
+        "nums": {
+          "precision": 0,
+          "n_files": 1,
+          "n_statements": 6,
+          "n_excluded": 0,
+          "n_missing": 0,
+          "n_branches": 0,
+          "n_partial_branches": 0,
+          "n_missing_branches": 0
+        }
+      }
+    },
+    "z_2484c951eaf88dd9_0004_coursesubscription_py": {
+      "hash": "130b7ef6ab6c771b059d9ab685c59112",
+      "index": {
+        "url": "z_2484c951eaf88dd9_0004_coursesubscription_py.html",
+        "file": "materials\\migrations\\0004_coursesubscription.py",
+        "description": "",
+        "nums": {
+          "precision": 0,
+          "n_files": 1,
+          "n_statements": 6,
+          "n_excluded": 0,
+          "n_missing": 0,
+          "n_branches": 0,
+          "n_partial_branches": 0,
+          "n_missing_branches": 0
+        }
+      }
+    },
+    "z_2484c951eaf88dd9___init___py": {
+      "hash": "22a55c70b987e14d3f30c99eef952833",
+      "index": {
+        "url": "z_2484c951eaf88dd9___init___py.html",
+        "file": "materials\\migrations\\__init__.py",
+        "description": "",
+        "nums": {
+          "precision": 0,
+          "n_files": 1,
+          "n_statements": 0,
+          "n_excluded": 0,
+          "n_missing": 0,
+          "n_branches": 0,
+          "n_partial_branches": 0,
+          "n_missing_branches": 0
+        }
+      }
+    },
+    "z_f978324627c06562_models_py": {
+      "hash": "ef39156b3acfe74dfc05e8bc4ec8c617",
+      "index": {
+        "url": "z_f978324627c06562_models_py.html",
+        "file": "materials\\models.py",
+        "description": "",
+        "nums": {
+          "precision": 0,
+          "n_files": 1,
+          "n_statements": 34,
+          "n_excluded": 0,
+          "n_missing": 3,
+          "n_branches": 0,
+          "n_partial_branches": 0,
+          "n_missing_branches": 0
+        }
+      }
+    },
+    "z_f978324627c06562_paginators_py": {
+      "hash": "b50442fe3558bf684ba09004a78a8353",
+      "index": {
+        "url": "z_f978324627c06562_paginators_py.html",
+        "file": "materials\\paginators.py",
+        "description": "",
+        "nums": {
+          "precision": 0,
+          "n_files": 1,
+          "n_statements": 5,
+          "n_excluded": 0,
+          "n_missing": 0,
+          "n_branches": 0,
+          "n_partial_branches": 0,
+          "n_missing_branches": 0
+        }
+      }
+    },
+    "z_f978324627c06562_serializers_py": {
+      "hash": "a0909e404e242e53877b01e2b79b3c40",
+      "index": {
+        "url": "z_f978324627c06562_serializers_py.html",
+        "file": "materials\\serializers.py",
+        "description": "",
+        "nums": {
+          "precision": 0,
+          "n_files": 1,
+          "n_statements": 35,
+          "n_excluded": 0,
+          "n_missing": 6,
+          "n_branches": 0,
+          "n_partial_branches": 0,
+          "n_missing_branches": 0
+        }
+      }
+    },
+    "z_f978324627c06562_tests_py": {
+      "hash": "5e8c883dc775d0e7e00e25d0f2c9121e",
+      "index": {
+        "url": "z_f978324627c06562_tests_py.html",
+        "file": "materials\\tests.py",
+        "description": "",
+        "nums": {
+          "precision": 0,
+          "n_files": 1,
+          "n_statements": 79,
+          "n_excluded": 0,
+          "n_missing": 0,
+          "n_branches": 0,
+          "n_partial_branches": 0,
+          "n_missing_branches": 0
+        }
+      }
+    },
+    "z_f978324627c06562_urls_py": {
+      "hash": "f5934b6558e951be30acda9558a5a922",
+      "index": {
+        "url": "z_f978324627c06562_urls_py.html",
+        "file": "materials\\urls.py",
+        "description": "",
+        "nums": {
+          "precision": 0,
+          "n_files": 1,
+          "n_statements": 8,
+          "n_excluded": 0,
+          "n_missing": 0,
+          "n_branches": 0,
+          "n_partial_branches": 0,
+          "n_missing_branches": 0
+        }
+      }
+    },
+    "z_f978324627c06562_validators_py": {
+      "hash": "8ac17e66bac3f4ef1d0bc6eb47afc4e6",
+      "index": {
+        "url": "z_f978324627c06562_validators_py.html",
+        "file": "materials\\validators.py",
+        "description": "",
+        "nums": {
+          "precision": 0,
+          "n_files": 1,
+          "n_statements": 5,
+          "n_excluded": 0,
+          "n_missing": 1,
+          "n_branches": 0,
+          "n_partial_branches": 0,
+          "n_missing_branches": 0
+        }
+      }
+    },
+    "z_f978324627c06562_views_py": {
+      "hash": "3596d6415d84e23fef2d38cfaf1eafbd",
+      "index": {
+        "url": "z_f978324627c06562_views_py.html",
+        "file": "materials\\views.py",
+        "description": "",
+        "nums": {
+          "precision": 0,
+          "n_files": 1,
+          "n_statements": 73,
+          "n_excluded": 0,
+          "n_missing": 15,
+          "n_branches": 0,
+          "n_partial_branches": 0,
+          "n_missing_branches": 0
+        }
+      }
+    },
+    "z_f6c68bdc9becfc1e___init___py": {
+      "hash": "22a55c70b987e14d3f30c99eef952833",
+      "index": {
+        "url": "z_f6c68bdc9becfc1e___init___py.html",
+        "file": "users\\__init__.py",
+        "description": "",
+        "nums": {
+          "precision": 0,
+          "n_files": 1,
+          "n_statements": 0,
+          "n_excluded": 0,
+          "n_missing": 0,
+          "n_branches": 0,
+          "n_partial_branches": 0,
+          "n_missing_branches": 0
+        }
+      }
+    },
+    "z_f6c68bdc9becfc1e_admin_py": {
+      "hash": "221c56a8c3e22169def1a080f1646775",
+      "index": {
+        "url": "z_f6c68bdc9becfc1e_admin_py.html",
+        "file": "users\\admin.py",
+        "description": "",
+        "nums": {
+          "precision": 0,
+          "n_files": 1,
+          "n_statements": 5,
+          "n_excluded": 0,
+          "n_missing": 0,
+          "n_branches": 0,
+          "n_partial_branches": 0,
+          "n_missing_branches": 0
+        }
+      }
+    },
+    "z_f6c68bdc9becfc1e_apps_py": {
+      "hash": "f19cfd59c81debde18db473bc848dbfe",
+      "index": {
+        "url": "z_f6c68bdc9becfc1e_apps_py.html",
+        "file": "users\\apps.py",
+        "description": "",
+        "nums": {
+          "precision": 0,
+          "n_files": 1,
+          "n_statements": 3,
+          "n_excluded": 0,
+          "n_missing": 0,
+          "n_branches": 0,
+          "n_partial_branches": 0,
+          "n_missing_branches": 0
+        }
+      }
+    },
+    "z_8b562f3fe71efc7d___init___py": {
+      "hash": "22a55c70b987e14d3f30c99eef952833",
+      "index": {
+        "url": "z_8b562f3fe71efc7d___init___py.html",
+        "file": "users\\management\\__init__.py",
+        "description": "",
+        "nums": {
+          "precision": 0,
+          "n_files": 1,
+          "n_statements": 0,
+          "n_excluded": 0,
+          "n_missing": 0,
+          "n_branches": 0,
+          "n_partial_branches": 0,
+          "n_missing_branches": 0
+        }
+      }
+    },
+    "z_1df033120bbcc412___init___py": {
+      "hash": "22a55c70b987e14d3f30c99eef952833",
+      "index": {
+        "url": "z_1df033120bbcc412___init___py.html",
+        "file": "users\\management\\commands\\__init__.py",
+        "description": "",
+        "nums": {
+          "precision": 0,
+          "n_files": 1,
+          "n_statements": 0,
+          "n_excluded": 0,
+          "n_missing": 0,
+          "n_branches": 0,
+          "n_partial_branches": 0,
+          "n_missing_branches": 0
+        }
+      }
+    },
+    "z_1df033120bbcc412_csu_py": {
+      "hash": "e9b14c3f8094dc30ecd60559cbddef2e",
+      "index": {
+        "url": "z_1df033120bbcc412_csu_py.html",
+        "file": "users\\management\\commands\\csu.py",
+        "description": "",
+        "nums": {
+          "precision": 0,
+          "n_files": 1,
+          "n_statements": 11,
+          "n_excluded": 0,
+          "n_missing": 11,
+          "n_branches": 0,
+          "n_partial_branches": 0,
+          "n_missing_branches": 0
+        }
+      }
+    },
+    "z_1df033120bbcc412_fill_group_moderators_py": {
+      "hash": "f57616a11d41abb8fa8c53a2a8f36c35",
+      "index": {
+        "url": "z_1df033120bbcc412_fill_group_moderators_py.html",
+        "file": "users\\management\\commands\\fill_group_moderators.py",
+        "description": "",
+        "nums": {
+          "precision": 0,
+          "n_files": 1,
+          "n_statements": 11,
+          "n_excluded": 0,
+          "n_missing": 11,
+          "n_branches": 0,
+          "n_partial_branches": 0,
+          "n_missing_branches": 0
+        }
+      }
+    },
+    "z_1df033120bbcc412_fill_payments_py": {
+      "hash": "41e1a94ace0b322dcad9875ebe73f909",
+      "index": {
+        "url": "z_1df033120bbcc412_fill_payments_py.html",
+        "file": "users\\management\\commands\\fill_payments.py",
+        "description": "",
+        "nums": {
+          "precision": 0,
+          "n_files": 1,
+          "n_statements": 29,
+          "n_excluded": 0,
+          "n_missing": 29,
+          "n_branches": 0,
+          "n_partial_branches": 0,
+          "n_missing_branches": 0
+        }
+      }
+    },
+    "z_fff39e3ca0aaeed4_0001_initial_py": {
+      "hash": "72e05ceb186324fb4ef10bd255be4fb4",
+      "index": {
+        "url": "z_fff39e3ca0aaeed4_0001_initial_py.html",
+        "file": "users\\migrations\\0001_initial.py",
+        "description": "",
+        "nums": {
+          "precision": 0,
+          "n_files": 1,
+          "n_statements": 7,
+          "n_excluded": 0,
+          "n_missing": 0,
+          "n_branches": 0,
+          "n_partial_branches": 0,
+          "n_missing_branches": 0
+        }
+      }
+    },
+    "z_fff39e3ca0aaeed4_0002_alter_user_avatar_alter_user_phone_number_py": {
+      "hash": "415a14b1131f0d052e4763bbd73d4e5f",
+      "index": {
+        "url": "z_fff39e3ca0aaeed4_0002_alter_user_avatar_alter_user_phone_number_py.html",
+        "file": "users\\migrations\\0002_alter_user_avatar_alter_user_phone_number.py",
+        "description": "",
+        "nums": {
+          "precision": 0,
+          "n_files": 1,
+          "n_statements": 4,
+          "n_excluded": 0,
+          "n_missing": 0,
+          "n_branches": 0,
+          "n_partial_branches": 0,
+          "n_missing_branches": 0
+        }
+      }
+    },
+    "z_fff39e3ca0aaeed4_0003_alter_user_groups_alter_user_is_active_py": {
+      "hash": "27769e56acff3522bad3127246036954",
+      "index": {
+        "url": "z_fff39e3ca0aaeed4_0003_alter_user_groups_alter_user_is_active_py.html",
+        "file": "users\\migrations\\0003_alter_user_groups_alter_user_is_active.py",
+        "description": "",
+        "nums": {
+          "precision": 0,
+          "n_files": 1,
+          "n_statements": 4,
+          "n_excluded": 0,
+          "n_missing": 0,
+          "n_branches": 0,
+          "n_partial_branches": 0,
+          "n_missing_branches": 0
+        }
+      }
+    },
+    "z_fff39e3ca0aaeed4_0004_alter_user_groups_alter_user_is_active_payment_py": {
+      "hash": "26a0348c639e9ec60bae1efc3e3acf60",
+      "index": {
+        "url": "z_fff39e3ca0aaeed4_0004_alter_user_groups_alter_user_is_active_payment_py.html",
+        "file": "users\\migrations\\0004_alter_user_groups_alter_user_is_active_payment.py",
+        "description": "",
+        "nums": {
+          "precision": 0,
+          "n_files": 1,
+          "n_statements": 6,
+          "n_excluded": 0,
+          "n_missing": 0,
+          "n_branches": 0,
+          "n_partial_branches": 0,
+          "n_missing_branches": 0
+        }
+      }
+    },
+    "z_fff39e3ca0aaeed4_0005_alter_user_groups_alter_user_is_active_py": {
+      "hash": "948d8532cfe18bd4dc1622e51dbf7f8c",
+      "index": {
+        "url": "z_fff39e3ca0aaeed4_0005_alter_user_groups_alter_user_is_active_py.html",
+        "file": "users\\migrations\\0005_alter_user_groups_alter_user_is_active.py",
+        "description": "",
+        "nums": {
+          "precision": 0,
+          "n_files": 1,
+          "n_statements": 4,
+          "n_excluded": 0,
+          "n_missing": 0,
+          "n_branches": 0,
+          "n_partial_branches": 0,
+          "n_missing_branches": 0
+        }
+      }
+    },
+    "z_fff39e3ca0aaeed4___init___py": {
+      "hash": "22a55c70b987e14d3f30c99eef952833",
+      "index": {
+        "url": "z_fff39e3ca0aaeed4___init___py.html",
+        "file": "users\\migrations\\__init__.py",
+        "description": "",
+        "nums": {
+          "precision": 0,
+          "n_files": 1,
+          "n_statements": 0,
+          "n_excluded": 0,
+          "n_missing": 0,
+          "n_branches": 0,
+          "n_partial_branches": 0,
+          "n_missing_branches": 0
+        }
+      }
+    },
+    "z_f6c68bdc9becfc1e_models_py": {
+      "hash": "ef3e19558bebe63fa305efa1c2090837",
+      "index": {
+        "url": "z_f6c68bdc9becfc1e_models_py.html",
+        "file": "users\\models.py",
+        "description": "",
+        "nums": {
+          "precision": 0,
+          "n_files": 1,
+          "n_statements": 29,
+          "n_excluded": 0,
+          "n_missing": 2,
+          "n_branches": 0,
+          "n_partial_branches": 0,
+          "n_missing_branches": 0
+        }
+      }
+    },
+    "z_f6c68bdc9becfc1e_permissions_py": {
+      "hash": "04f78b7e8c5bc09dd3e753c69505554a",
+      "index": {
+        "url": "z_f6c68bdc9becfc1e_permissions_py.html",
+        "file": "users\\permissions.py",
+        "description": "",
+        "nums": {
+          "precision": 0,
+          "n_files": 1,
+          "n_statements": 9,
+          "n_excluded": 0,
+          "n_missing": 0,
+          "n_branches": 0,
+          "n_partial_branches": 0,
+          "n_missing_branches": 0
+        }
+      }
+    },
+    "z_f6c68bdc9becfc1e_serializers_py": {
+      "hash": "e5e536e545c91b8bf5b7de1322635229",
+      "index": {
+        "url": "z_f6c68bdc9becfc1e_serializers_py.html",
+        "file": "users\\serializers.py",
+        "description": "",
+        "nums": {
+          "precision": 0,
+          "n_files": 1,
+          "n_statements": 16,
+          "n_excluded": 0,
+          "n_missing": 0,
+          "n_branches": 0,
+          "n_partial_branches": 0,
+          "n_missing_branches": 0
+        }
+      }
+    },
+    "z_f6c68bdc9becfc1e_tests_py": {
+      "hash": "22a55c70b987e14d3f30c99eef952833",
+      "index": {
+        "url": "z_f6c68bdc9becfc1e_tests_py.html",
+        "file": "users\\tests.py",
+        "description": "",
+        "nums": {
+          "precision": 0,
+          "n_files": 1,
+          "n_statements": 0,
+          "n_excluded": 0,
+          "n_missing": 0,
+          "n_branches": 0,
+          "n_partial_branches": 0,
+          "n_missing_branches": 0
+        }
+      }
+    },
+    "z_f6c68bdc9becfc1e_urls_py": {
+      "hash": "2f5d4cce487643488fae5222a6814554",
+      "index": {
+        "url": "z_f6c68bdc9becfc1e_urls_py.html",
+        "file": "users\\urls.py",
+        "description": "",
+        "nums": {
+          "precision": 0,
+          "n_files": 1,
+          "n_statements": 10,
+          "n_excluded": 0,
+          "n_missing": 0,
+          "n_branches": 0,
+          "n_partial_branches": 0,
+          "n_missing_branches": 0
+        }
+      }
+    },
+    "z_f6c68bdc9becfc1e_views_py": {
+      "hash": "ae2d4fcb3379db887935130b021ad029",
+      "index": {
+        "url": "z_f6c68bdc9becfc1e_views_py.html",
+        "file": "users\\views.py",
+        "description": "",
+        "nums": {
+          "precision": 0,
+          "n_files": 1,
+          "n_statements": 24,
+          "n_excluded": 0,
+          "n_missing": 3,
+          "n_branches": 0,
+          "n_partial_branches": 0,
+          "n_missing_branches": 0
+        }
+      }
+    }
+  }
+}

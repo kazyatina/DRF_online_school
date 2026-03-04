@@ -37,7 +37,7 @@ class Course(models.Model):
 
 class Lesson(models.Model):
     course = models.ForeignKey(
-        Course,
+        "Course",
         on_delete=models.SET_NULL,
         blank=True,
         null=True,
@@ -76,3 +76,20 @@ class Lesson(models.Model):
     class Meta:
         verbose_name = "Урок"
         verbose_name_plural = "Уроки"
+
+
+class CourseSubscription(models.Model):
+    user = models.ForeignKey(
+        User, on_delete=models.CASCADE, related_name="subscriptions"
+    )
+    course = models.ForeignKey(
+        "Course", on_delete=models.CASCADE, related_name="subscriptions"
+    )
+
+    class Meta:
+        unique_together = ("user", "course")
+        verbose_name = "Подписка на курс"
+        verbose_name_plural = "Подписки на курсы"
+
+    def __str__(self):
+        return f"{self.user} subscribed to {self.course}"
