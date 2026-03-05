@@ -18,6 +18,10 @@ ___
 - pip freeze > requirements.txt - обновление файла с зависимостями
 - pip install Pillow - установка библиотеки для работы с изображениями
 - pip install django_filter - установка фильтрации, добавить в settings/INSTALLED_APPS = ['django_filters',]
+- pip install drf-yasg - (+доп.настройки settings, urls) drf-yasg предоставляет возможности для автоматической генерации документации на основе ваших 
+сериализаторов, представлений и URL-шаблонов
+- pip install django-cors-headers - (+доп.настройки settings) механизм безопасности браузера
+- pip install requests - установка Requests — библиотека для работы с HTTP-запросами
 + 
 - python manage.py runserver - запускает сервер
 - python manage.py makemigrations app_name - создает миграцию, которая зафиксирует эти изменения.
