@@ -6,6 +6,7 @@ from config import settings
 
 class User(AbstractUser):
     """Модель Пользователь"""
+
     username = models.CharField(max_length=150, verbose_name="Ник", unique=False)
     email = models.EmailField(unique=True)
 
@@ -34,6 +35,7 @@ class Payment(models.Model):
     PAYMENT_METHOD_CHOICES = [
         ("cash", "Наличные"),
         ("bank_transfer", "Перевод на счет"),
+        ("card", "Карта (Stripe)"),
     ]
 
     user = models.ForeignKey(

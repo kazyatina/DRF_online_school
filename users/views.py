@@ -1,5 +1,6 @@
 from django.utils.decorators import method_decorator
 from django_filters.rest_framework import DjangoFilterBackend
+from drf_yasg import openapi
 from drf_yasg.utils import swagger_auto_schema
 from rest_framework import generics, status, viewsets
 from rest_framework.filters import OrderingFilter
@@ -57,6 +58,26 @@ class PaymentListAPIView(generics.ListAPIView):
     ordering_fields = ("payment_date",)
 
 
+@method_decorator(
+    name="post",
+    decorator=swagger_auto_schema(
+        operation_description="Создать платёж за курс через Stripe. Возвращает ссылку на оплату.",
+        request_body=PaymentCreateSerializer,
+        responses={
+            201: openapi.Response(
+                description="Платёж создан",
+                examples={
+                    "application/json": {
+                        "payment_id": 1,
+                        "payment_link": "https://checkout.stripe.com/...",
+                        "status": "pending",
+                    }
+                },
+            ),
+            404: "Курс не найден",
+        },
+    ),
+)
 class CreatePaymentView(generics.GenericAPIView):
     """Взаимодействие с платежным сервисом (Stripe)"""
 
@@ -89,6 +110,7 @@ class CreatePaymentView(generics.GenericAPIView):
             user=request.user,
             course=course,
             amount=amount,
+            payment_method="card",  # оплата через Stripe — картой
             stripe_session_id=session.id,
             payment_link=session.url,
             status="pending",
