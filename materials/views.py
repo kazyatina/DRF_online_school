@@ -16,6 +16,8 @@ from materials.paginators import CustomPagination
 from materials.serializers import CourseSerializer, LessonSerializer
 from users.permissions import IsModerators, IsOwner
 
+from .tasks import send_course_update_email
+
 
 class CourseViewSet(ModelViewSet):
     queryset = Course.objects.all()
@@ -43,6 +45,18 @@ class CourseViewSet(ModelViewSet):
         if user.groups.filter(name="moderators").exists():
             return Course.objects.all()
         return Course.objects.filter(owner=user)
+
+    def perform_update(self, serializer):
+        course = serializer.save()
+        subscribers = CourseSubscription.objects.filter(course=course).select_related(
+            "user"
+        )
+
+        for subscription in subscribers:
+            email = subscription.user.email
+            title = course.title
+            print(f"Отправка email: {email}, курс: {title}")
+            send_course_update_email.delay(email, title)
 
 
 class LessonCreateApiView(CreateAPIView):
