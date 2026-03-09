@@ -26,6 +26,9 @@ class Course(models.Model):
     owner = models.ForeignKey(
         User, on_delete=CASCADE, verbose_name="Владелец", null=True, blank=True
     )
+    price = models.DecimalField(
+        max_digits=8, decimal_places=2, default=10, verbose_name="Цена курса"
+    )
 
     def __str__(self):
         return self.title
