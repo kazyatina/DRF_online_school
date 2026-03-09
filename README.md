@@ -22,6 +22,11 @@ ___
 сериализаторов, представлений и URL-шаблонов
 - pip install django-cors-headers - (+доп.настройки settings) механизм безопасности браузера
 - pip install requests - установка Requests — библиотека для работы с HTTP-запросами
+- pip install redis - Установка брокера redis
+- pip install celery - Установка Celery
+- pip install eventlet - Для работы на Windows необходимо также установить пакет eventlet через пакетный менеджер.
+- pip install django-celery-beat - настроить периодически выполняемые задачи, 
+установите дополнительный пакет celery-beat и добавьте его в установленные приложения
 + 
 - python manage.py runserver - запускает сервер
 - python manage.py makemigrations app_name - создает миграцию, которая зафиксирует эти изменения.
@@ -39,6 +44,7 @@ ___
 - pip install coverage - установить Для подсчета покрытия тестами
 - coverage run --source='.' manage.py tests - После установки важно запустить подсчет покрытия и вывести отчет
 - coverage report - и вывести отчет
+- celery -A config worker -l INFO (-P eventlet (добавить для Windows)) - Для запуска обработчика worker 
 ___
 ## Создание и настройка приложения `material`:
 
